@@ -2,7 +2,7 @@ package de.kohnlehome;
 
 import java.time.LocalDate;
 
-public class SchrittDifferenz {
+public class SchrittDifferenz implements ISchrittDifferenz {
     private ISchrittzahl schrittzahl;
 
     public SchrittDifferenz(ISchrittzahl schrittzahl) {
